@@ -1,10 +1,10 @@
 # Robot cartografo
-
 ##  Integrantes
-##  Introducción
 * Juan Jose Herera Rodriguez
 * Javier Leonardo Rodriguez Sandoval
 * Daniel Alejandro Gaspar
+
+##  Introducción
 
 ##  Perifericos
 Modulos:
