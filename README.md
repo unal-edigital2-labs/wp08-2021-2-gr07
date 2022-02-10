@@ -14,9 +14,10 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 ##  Perifericos
 
 ###  Modulos:
-En esta sección se encuentran los archivos de Phyton que integran los módulos en Litex. Además hay un listado con los módulos trabajados en el proyecto a los cuales podrá darle click para ser dirigido a los archivos de Verilog respectivamente.
-En esta sección se encuentran los archivos de Phyton que integran los módulos en Litex. Además hay un listado con los módulos trabajados en el proyecto a los cuales podrá darle click para ser dirigido a los archivos de Verilog respectivamente.
+En esta sección se encuentran los archivos de Phyton que son integrados mediante Litex. A continuación se listan los documentos explicativos de cada periférico.
 
+###  Videos:
+A continuación se listan los videos explicativos de cada periférico.
 * [Camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara%2Cmd "título del enlace aquí")
 * [Sensor de temperatura](dirección.enlace.aquí "título del enlace aquí")
 * [Radar](dirección.enlace.aquí "título del enlace aquí")
