@@ -13,7 +13,6 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 
 ##  Perifericos
 
-###  Modulos:
 Para la elaboración de este proyecto fué necesaria la integración de distintos modulos o perifericos,a continuación se presenta una lista con todos ellos,en donde se analisará su utilidad,estructura,mapas de memoria y observaciones generales de cada periferico.
 
 * [Camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara%2Cmd "título del enlace aquí")
