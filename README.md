@@ -12,7 +12,10 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 ![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/WhatsApp%20Image%202022-01-27%20at%2011.39.49%20AM.jpeg "Robot cartógrafo")
 
 ##  Perifericos
-Modulos:
+
+###  Modulos:
+En esta sección se encuentran los archivos de Phyton que integran los módulos en Litex. Además hay un listado con los módulos trabajados en el proyecto a los cuales podrá darle click para ser dirigido a los archivos de Verilog respectivamente.
+En esta sección se encuentran los archivos de Phyton que integran los módulos en Litex. Además hay un listado con los módulos trabajados en el proyecto a los cuales podrá darle click para ser dirigido a los archivos de Verilog respectivamente.
 
 * [Camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara%2Cmd "título del enlace aquí")
 * [Sensor de temperatura](dirección.enlace.aquí "título del enlace aquí")
