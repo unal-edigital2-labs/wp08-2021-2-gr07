@@ -6,7 +6,7 @@ de este proyecto,este será conectado por I2C al bus Wish.
 
 
 
-![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/sht31.png "Robot cartógrafo")
+![S_temperatura](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/sht31.png "S_temperatura")
 
 # Mapas de memoria
 
