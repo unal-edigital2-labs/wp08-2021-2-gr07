@@ -16,7 +16,7 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 Para la elaboración de este proyecto fué necesaria la integración de distintos modulos o perifericos,a continuación se presenta una lista con todos ellos,en donde se analisará su utilidad,estructura,mapas de memoria y observaciones generales de cada periferico.
 
 * [I2C](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/I2C.md "título del enlace aquí")
-* [Sensor de temperatura](dirección.enlace.aquí "título del enlace aquí")
+* [Sensor de temperatura](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Sensor%20de%20temperatura.md "título del enlace aquí")
 * [Radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Radar.md "título del enlace aquí")
 * [Modulo de camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara.md "aquí")
 * [Motores](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Ruedas.md "Notores")
