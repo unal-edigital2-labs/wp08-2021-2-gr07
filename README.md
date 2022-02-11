@@ -20,8 +20,5 @@ Para la elaboración de este proyecto fué necesaria la integración de distinto
 * [Radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Radar.md "título del enlace aquí")
 * [Modulo de camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara.md "aquí")
 * [Motores](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Ruedas.md "Notores")
-
-* [Bluetooth](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/bluetooth.md "título del enlace aquí")
-
 * [Otros modulos](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Otros%20modulos.md "título del enlace aquí")
 ## Evidencias de implementación
