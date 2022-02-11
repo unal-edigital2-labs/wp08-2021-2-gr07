@@ -1,6 +1,6 @@
 
 # SOC
-El proyecto analisado a lo largo de este documento tiene como proposito principal la aplicación en practica del desarrollo de un System on Chip (Soc) el cual consistiria en integrar diversos modulos  entre ellos camara,sensor de temperatura,bluetooh,radad,servomotores entre otros. para cumplir con este proposito se hizo uso de la herramienta litex en donde se logró agrupar cada modulo para crar hadware e implementarlo en la FPGA.
+El proyecto analisado a lo largo de este documento tiene como proposito principal la aplicación en practica del desarrollo de un System on Chip (Soc) el cual consistirá en integrar diversos modulos  entre ellos camara,sensor de temperatura,bluetooh,radad,servomotores entre otros para crear un robot cartografico inteligente. Para cumplir con este proposito se hizo uso de la herramienta litex en donde se integra cada modulo para crear hadware e implementarlo en la FPGA.
 
 # Mapas de memoria
 A continuación se ilustra el mapa general del proyecto con cada periferico a implementar.
