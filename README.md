@@ -18,7 +18,7 @@ Para la elaboración de este proyecto fué necesaria la integración de distinto
 * [I2C](dirección.enlace.aquí "título del enlace aquí")
 * [Sensor de temperatura](dirección.enlace.aquí "título del enlace aquí")
 * [Radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Radar.md "título del enlace aquí")
-* [Modulo de camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara.md aquí")
+* [Modulo de camara](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Camara.md "aquí")
 * [Motores](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Ruedas.md "Notores")
 * [GPIO](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/GPIO.md "título del enlace aquí")
 * [Bluetooth](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/bluetooth.md "título del enlace aquí")
