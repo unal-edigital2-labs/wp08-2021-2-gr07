@@ -11,7 +11,7 @@ Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ult
 ![Caja negra radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20radar.png "Caja negra radar")¡
 
 ##	Ultra Sonido
-###Modelo
+###	Modelo
 Se usó un ultrasonido de referencia HC-SR04 con el fin de que el robot cartógrafo sea capaz de identificar obstaculos alrededor de si mismo, de esta manera los datos estarán disponibles para su posterior procesamiento.
 
 ![Ultra Sonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/sensor-ultrasonido-hc-sr04.jpg "Ultra sonido")¡
