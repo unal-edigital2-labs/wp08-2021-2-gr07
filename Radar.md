@@ -11,7 +11,6 @@ Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ult
 ![Caja negra radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20radar.png "Caja negra radar")
 
 ##	Ultra Sonido
-###	Modelo
 Se usó un ultrasonido de referencia HC-SR04 con el fin de que el robot cartógrafo sea capaz de identificar obstaculos alrededor de si mismo, de esta manera los datos estarán disponibles para su posterior procesamiento.
 
 ![Ultra Sonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/sensor-ultrasonido-hc-sr04.jpg "Ultra sonido")
@@ -98,5 +97,60 @@ always @ (posedge newCLK)begin
     endcase 
 end
 
+endmodule
+```
+
+##	Servomotor
+Es el encargado de permitir el giro del Ultra sonido, es decir hace las veces de cuello, si hacemos la analogía con la anatomía humana, es importante programarlo correctamente para un buen reconocimiento del entorno al momento de la prueba, usamos la referencia SG90S pues se adaptaba bien a las necesidades de los ángulos a escanear en el proyecto.
+
+![Servomotor SG90S](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Servomotor%20SG90S.jpg "Servomotor SG90S")
+
+###	Test
+```
+static void pwm_test(void)
+{  
+        printf("Test del pwm... se interrumpe con el botton 1\n");
+        while(!(buttons_in_read()&1)) {
+        //pwm_cntrl_orden_write(4);
+	//delay_ms(3000);
+	pwm_cntrl_orden_write(5);
+	delay_ms(3000);
+	pwm_cntrl_orden_write(4);
+	delay_ms(3000);
+	pwm_cntrl_orden_write(6);
+	delay_ms(3000);
+	pwm_cntrl_orden_write(4);
+	delay_ms(3000);
+	
+	}
+}
+```
+###	Código
+```
+`timescale 1ns / 1ps
+module PWMUS(clk, servo, pos);
+input clk;
+input [1:0]pos;
+output reg servo;
+
+reg [20:0]contador = 0;
+
+always@(posedge clk)begin
+	contador = contador + 1;
+	if(contador =='d1_000_000) begin
+	   contador = 0;
+	end
+	
+	case(pos)
+        2'b00:  servo = (contador < 'd50_000) ? 1:0;
+        
+        2'b01:  servo = (contador < 'd150_000) ? 1:0;
+        
+        2'b10:  servo = (contador < 'd250_000) ? 1:0;
+        
+        default:servo = (contador < 'd50_000) ? 1:0;
+    endcase
+
+end
 endmodule
 ```
