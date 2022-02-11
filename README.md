@@ -22,7 +22,7 @@ Para la elaboración de este proyecto fué necesaria la integración de distinto
 * [Motores](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Ruedas.md "Notores")
 * [GPIO](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/GPIO.md "título del enlace aquí")
 * [Bluetooth](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/bluetooth.md "título del enlace aquí")
-* [SOC](dirección.enlace.aquí "título del enlace aquí")
+* [SOC](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/new/main "título del enlace aquí")
 * [VGA](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/new/main "título del enlace aquí")
 
 ## Evidencias de implementación
