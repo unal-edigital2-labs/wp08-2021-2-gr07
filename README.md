@@ -11,6 +11,22 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 
 ![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/WhatsApp%20Image%202022-01-27%20at%2011.39.49%20AM.jpeg "Robot cartógrafo")
 
+## Materiales 
+
+Los materiales necesarios para la elaboración del robot cartografo  son:
+* 1 Modulo camara OV767
+* 1 Sensor de temperatura DTH11
+* 1 Ultrasonido HC-SR04
+* 1 Puente HL298N
+* 1 Bluetooth HC-05
+* 5 sensores infrarrojos
+* 1 puente H L298N
+* 1 mini Protoboard
+* 2 Motorreductores con ruedas
+* 1 Servomotor
+* Protoboard
+
+
 ##  Modulos del proyecto
 
 Para la elaboración de este proyecto fué necesaria la integración de distintos modulos o perifericos,a continuación se presenta una lista con todos ellos,en donde se analisará su utilidad,estructura,mapas de memoria y observaciones generales de cada periferico.
