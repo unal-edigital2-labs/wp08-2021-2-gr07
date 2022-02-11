@@ -17,7 +17,7 @@
 
 
 * ## Bluetooth
-Se hace uso de un modulo de bluetooh para transferencia de datos interna,a continuación de 
+Se hace uso de un modulo de bluetooh para transferencia de datos interna por medio de UART.
 
 ![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/bluetooh1.png "Robot cartógrafo")
 
