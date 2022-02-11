@@ -1,4 +1,5 @@
 #Radar
+
 Localizador de obstáculos y mapeo
 Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ultrasonido, posterior a esto envía los datos por el BUS a su debido procesamiento.
 
