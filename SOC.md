@@ -5,7 +5,7 @@ El proyecto analisado a lo largo de este documento tiene como proposito principa
 # Mapas de memoria
 A continuación se ilustra el mapa general del proyecto con cada periferico a implementar.
 
-![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/MP_SOC.png "Robot cartógrafo")
+![SOC](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/MP_SOC.jpg "System on Chip")
 
 # Codigo implementado
 
