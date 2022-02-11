@@ -7,6 +7,11 @@ A continuación se ilustra el mapa general del proyecto con cada periferico a im
 
 ![SOC](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/MP_SOC.jpg "System on Chip")
 
+# Caja negra
+A continuación se ilustra la caja negra del proyecto con cada periferico a implementar.
+
+![SoC_Negra](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20SoC.png "SoC_Negra")
+
 # Codigo implementado
 
 Finalmente se presenta el codigo generado durante la implementación de los perifericos a la estructura general del proyecto.
