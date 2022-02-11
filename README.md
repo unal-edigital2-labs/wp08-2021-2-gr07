@@ -14,6 +14,7 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 ## Materiales 
 
 Los materiales necesarios para la elaboración del robot cartografo  son:
+* FPGA Nexys A7
 * 1 Modulo camara OV767
 * 1 Sensor de temperatura DTH11
 * 1 Ultrasonido HC-SR04
