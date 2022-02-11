@@ -20,6 +20,10 @@ El HC-SR04 requiere de un pulso TRIGGER y uno ECHO para funcionar correctamente,
 
 ![Diagrama de tiempo HC-SR04](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Diagrama-tempo-hc-sr04.png "Diagrama de tiempo HC-SR04")
 
+###	Caja negra
+
+![Caja negra ultrasonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_%20ultrasonido.png "Caja negra ultrasonido")
+
 ###	Test
 ```
 static int test_us(void){
