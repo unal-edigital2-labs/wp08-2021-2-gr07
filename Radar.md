@@ -3,7 +3,7 @@
 Localizador de obstáculos y mapeo
 Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ultrasonido, posterior a esto envía los datos por el BUS a su debido procesamiento.
 
-##Mapa de memoria
+##	Mapa de memoria
 ![Mapa de memoria radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_radar.png "Mapa de memoria radar")¡
 
 ##	Caja negra
