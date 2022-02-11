@@ -20,7 +20,7 @@ Para la elaboración de este proyecto fué necesaria la integración de distinto
 * [Sensor de temperatura](dirección.enlace.aquí "título del enlace aquí")
 * [Radar](dirección.enlace.aquí "título del enlace aquí")
 * [Modulo de camara](dirección.enlace.aquí "título del enlace aquí")
-* [Motores](dirección.enlace.aquí "título del enlace aquí")
+* [Motores](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Ruedas.md "Notores")
 * [GPIO](dirección.enlace.aquí "título del enlace aquí")
 * [Bluetooth](dirección.enlace.aquí "título del enlace aquí")
 * [SOC](dirección.enlace.aquí "título del enlace aquí")
