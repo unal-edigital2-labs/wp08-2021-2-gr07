@@ -21,6 +21,10 @@ El HC-SR04 requiere de un pulso TRIGGER y uno ECHO para funcionar correctamente,
 
 ![Caja negra ultrasonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_%20ultrasonido.png "Caja negra ultrasonido")
 
+###	Caja negra para el ultra sonido
+
+![mapa_ultrasonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_ultrasonidoo.png "Mapa ultrasonido")
+
 ###	Test para el ultra sonido
 ```
 static int test_us(void){
