@@ -12,7 +12,7 @@ de este proyecto,este será conectado por I2C al bus Wish.
 # Mapas de memoria
 
 
-![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/MP_Sensor_Temperatura.png "Robot cartógrafo")
+![Mapa_DHT11](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_DHT11.png "Mapa_DHT11")
 
 # Codigo python para la implementación
 
