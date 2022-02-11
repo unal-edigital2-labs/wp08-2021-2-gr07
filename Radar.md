@@ -146,18 +146,18 @@ reg [20:0]contador = 0;
 
 always@(posedge clk)begin
 	contador = contador + 1;
-	if(contador =='d1_000_000) begin
+	if(contador =='d1_000_000) begin	//Cada vez que el contador completa un ciclo se avanza 1 estado en pos
 	   contador = 0;
 	end
 	
 	case(pos)
-        2'b00:  servo = (contador < 'd50_000) ? 1:0;
+        2'b00:  servo = (contador < 'd50_000) ? 1:0;	//primera posición (derecha)
         
-        2'b01:  servo = (contador < 'd150_000) ? 1:0;
+        2'b01:  servo = (contador < 'd150_000) ? 1:0	//Segunda posición (al frente giro de 90 grados)
         
-        2'b10:  servo = (contador < 'd250_000) ? 1:0;
+        2'b10:  servo = (contador < 'd250_000) ? 1:0;	//Tercera posición (izquierda, giro de 90 grados)
         
-        default:servo = (contador < 'd50_000) ? 1:0;
+        default:servo = (contador < 'd50_000) ? 1:0;	//Nuevamente mira a la derecha (giro de -180 grados)
     endcase
 
 end
