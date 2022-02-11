@@ -4,14 +4,15 @@
 Para este proyecto se ha elegido añadir un nuevo periferico,el cual consiste en un sensor de temperatura,un complemento ideal para la tipologia 
 de este proyecto,este será conectado por I2C al bus Wish.
 
-
-
-
 ![S_temperatura](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/DHT11.png "S_temperatura")
 
 # Mapa de memoria
 
 ![Mapa_DHT11](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_DHT11.png "Mapa_DHT11")
+
+# Caja negra
+
+![Caja_DHT11](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20DHT11.jpeg "Caja_DHT11")
 
 # Codigo python para la implementación
 
