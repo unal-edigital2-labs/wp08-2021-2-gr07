@@ -11,7 +11,7 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 
 ![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/WhatsApp%20Image%202022-01-27%20at%2011.39.49%20AM.jpeg "Robot cartógrafo")
 
-##  Perifericos
+##  Modulos del proyecto
 
 Para la elaboración de este proyecto fué necesaria la integración de distintos modulos o perifericos,a continuación se presenta una lista con todos ellos,en donde se analisará su utilidad,estructura,mapas de memoria y observaciones generales de cada periferico.
 
