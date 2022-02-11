@@ -109,6 +109,10 @@ Es el encargado de permitir el giro del Ultra sonido, es decir hace las veces de
 
 ![Servomotor SG90S](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Servomotor%20SG90S.jpg "Servomotor SG90S")
 
+###	Caja negra
+
+![Caja negra SG90S](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20SG90S.png "Caja negra SG90S")
+
 ###	Test
 ```
 static void pwm_test(void)
