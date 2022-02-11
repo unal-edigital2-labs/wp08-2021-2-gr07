@@ -1,5 +1,4 @@
 # Motor
-## Ruedas
 Este periférico es el encargado de darle movimiento al robot, gracias a los motores que tiene cada rueda logra tener la fuerza suficiente para girar y desplazarse.
 
 ![Ruedas](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Ruedas1.jpeg "Ruedas")
