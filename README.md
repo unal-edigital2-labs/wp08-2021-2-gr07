@@ -22,3 +22,5 @@ Para la elaboración de este proyecto fué necesaria la integración de distinto
 * [Motores](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Ruedas.md "Notores")
 * [Otros modulos](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Otros%20modulos.md "título del enlace aquí")
 ## Evidencias de implementación
+Finalmente luego de realizar una retroalimentación de lo realizado a lo largo del proyecto,se presenta un video con el tester de cada modulo utilizado.
+ [Funcionamiento del robot](https://www.youtube.com/watch?v=a3cBYZyUI-o&ab_channel=DanielGaspar "Funcionamiento del robot")
