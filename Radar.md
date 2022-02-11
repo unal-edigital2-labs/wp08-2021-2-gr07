@@ -8,7 +8,7 @@ Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ult
 
 ##	Caja negra
 
-!Caja negra radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_radar.png "Caja negra radar")¡
+!Caja negra radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20radar.png "Caja negra radar")¡
 
 ##	Ultra Sonido
 ###Modelo
