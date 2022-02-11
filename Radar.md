@@ -1,4 +1,4 @@
-#Radar
+#	Radar
 
 Localizador de obstáculos y mapeo
 Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ultrasonido, posterior a esto envía los datos por el BUS a su debido procesamiento.
@@ -6,18 +6,22 @@ Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ult
 ##Mapa de memoria
 ![Mapa de memoria radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_radar.png "Mapa de memoria radar")¡
 
-##Ultra Sonido
+##	Caja negra
+
+!Caja negra radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_radar.png "Caja negra radar")¡
+
+##	Ultra Sonido
 ###Modelo
 Se usó un ultrasonido de referencia HC-SR04 con el fin de que el robot cartógrafo sea capaz de identificar obstaculos alrededor de si mismo, de esta manera los datos estarán disponibles para su posterior procesamiento.
 
 ![Ultra Sonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/sensor-ultrasonido-hc-sr04.jpg "Ultra sonido")¡
 
-### Diagrama de tiempo
+###	Diagrama de tiempo
 El HC-SR04 requiere de un pulso TRIGGER y uno ECHO para funcionar correctamente, como se muestra a continuación:
 
 ![Diagrama de tiempo HC-SR04](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Diagrama-tempo-hc-sr04.png "Diagrama de tiempo HC-SR04")¡
 
-###Test
+###	Test
 ```
 static int test_us(void){
 
@@ -32,7 +36,7 @@ static int test_us(void){
 		ultrasonido_orden_write(0);
 		return d;
 ```
-###Código
+###	Código
 ```
 `timescale 1ns / 1ps
 module ultraSound(  input clk, 
