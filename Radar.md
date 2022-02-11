@@ -3,10 +3,7 @@
 Localizador de obstáculos y mapeo
 Capaz de encontrar barreras y crear un mapa haciendo uso del servomotor y el ultrasonido, posterior a esto envía los datos por el BUS a su debido procesamiento.
 
-##	Mapa de memoria
-![Mapa de memoria radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_radar.png "Mapa de memoria radar")
-
-##	Caja negra
+##	Caja negra para el Radar
 
 ![Caja negra radar](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20radar.png "Caja negra radar")
 
@@ -15,16 +12,16 @@ Se usó un ultrasonido de referencia HC-SR04 con el fin de que el robot cartógr
 
 ![Ultra Sonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/sensor-ultrasonido-hc-sr04.jpg "Ultra sonido")
 
-###	Diagrama de tiempo
+###	Diagrama de tiempo para el ultra sonido
 El HC-SR04 requiere de un pulso TRIGGER y uno ECHO para funcionar correctamente, como se muestra a continuación:
 
 ![Diagrama de tiempo HC-SR04](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Diagrama-tempo-hc-sr04.png "Diagrama de tiempo HC-SR04")
 
-###	Caja negra
+###	Caja negra para el ultra sonido
 
 ![Caja negra ultrasonido](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_%20ultrasonido.png "Caja negra ultrasonido")
 
-###	Test
+###	Test para el ultra sonido
 ```
 static int test_us(void){
 
@@ -39,7 +36,7 @@ static int test_us(void){
 		ultrasonido_orden_write(0);
 		return d;
 ```
-###	Código
+###	Código para el ultra sonido
 ```
 `timescale 1ns / 1ps
 module ultraSound(  input clk, 
@@ -109,11 +106,16 @@ Es el encargado de permitir el giro del Ultra sonido, es decir hace las veces de
 
 ![Servomotor SG90S](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Servomotor%20SG90S.jpg "Servomotor SG90S")
 
-###	Caja negra
+###	Caja negra para el servomotor
 
 ![Caja negra SG90S](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Caja%20negra%20SG90S.png "Caja negra SG90S")
 
-###	Test
+###	Mapa de memoria para el servomotor
+
+![image](https://user-images.githubusercontent.com/50889483/153672947-0559b8cb-eee1-450f-8a13-f0c57ee1af88.png)
+
+
+###	Test para el servomotor
 ```
 static void pwm_test(void)
 {  
@@ -133,7 +135,7 @@ static void pwm_test(void)
 	}
 }
 ```
-###	Código
+###	Código para el servomotor
 ```
 `timescale 1ns / 1ps
 module PWMUS(clk, servo, pos);
