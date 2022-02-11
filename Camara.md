@@ -5,9 +5,10 @@ Para la implementación de la camara se hará uso de una camara de referencia OV
 ![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/stm32.png "Robot cartógrafo")
 
 # Mapas de memoria
-Su mapa de memoria es:
+El mapa de memoria a implementar se ilustra a continuación
+
 ![OV7670](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Memoria_Camara.png "OV7670")
-# Codigo e implementación
+# Codigo implementado
 ```
 assign dataR = data[7:5];
 assign dataG = data[4:2];
@@ -53,4 +54,5 @@ always @(posedge clk)begin
 end
  ```
 
-# Test de prueba
+# Observaciones generales
+Se realizó la implementación de la camara con diversos codigos de los repositorios de grupos anteriores a este se le modificó de acuerdo a criterior personales sin embargo,no fue posible hacer funcionar este componente, se cree que es debido a daños fisicos del componente.
