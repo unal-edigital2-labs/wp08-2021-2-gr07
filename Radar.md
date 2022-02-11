@@ -112,8 +112,7 @@ Es el encargado de permitir el giro del Ultra sonido, es decir hace las veces de
 
 ###	Mapa de memoria para el servomotor
 
-![image](https://user-images.githubusercontent.com/50889483/153672947-0559b8cb-eee1-450f-8a13-f0c57ee1af88.png)
-
+![mapa servomotor](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_servo.png "mapa servomotor")
 
 ###	Test para el servomotor
 ```
