@@ -11,6 +11,8 @@ En el presente repositorio se encuentra la documentación del proyecto propuesto
 
 ![Robot](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/WhatsApp%20Image%202022-01-27%20at%2011.39.49%20AM.jpeg "Robot cartógrafo")
 
+Queremos aclarar que la sección del SoC se encuentra más abajo en "módulos", allí está explicado su funcionamiento y su respectivo mapa de memoria y caja negra, así mismo se podrá encontrar esta informacion para otros módulos en la misma sección.
+
 ## Materiales 
 
 Los materiales necesarios para la elaboración del robot cartografo  son:
