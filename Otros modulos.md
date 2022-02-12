@@ -11,6 +11,10 @@ Posible de haberse implementado.
 ### Mapas de memoria
 ![GPIO](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/MP_GPIO.png "Mapa de memoria GPIO")
 
+* ## Infrarrojo
+
+### Mapas de memoria
+![GPIO](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/MP_IR.png "Mapa de memoria Infrarrojo")
 
 * ## VGA
 
