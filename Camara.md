@@ -7,7 +7,7 @@ Para la implementación de la camara se hará uso de una camara de referencia OV
 # Mapas de memoria
 El mapa de memoria posible dado si se hubiera implementado se ilustra a continuación
 
-![OV7670](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Memoria_Camara.png "OV7670")
+![OV7670](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/Mapa_Camara.png "OV7670")
 # Codigo implementado
 ```
 assign dataR = data[7:5];
