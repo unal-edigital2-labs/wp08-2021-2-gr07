@@ -18,12 +18,11 @@ from litex.soc.cores import gpio
 from module import rgbled
 from module import sevensegment
 from module import vgacontroller
-from module import camara
 from module import ultraSound
 from module import PWMUS
 from module import infraRed
 from module import wheels
-from module import i2c
+from module import DHT11
 
 
 
@@ -42,12 +41,7 @@ class BaseSoC(SoCCore):
 		platform.add_source("module/verilog/PWMUS.v")
 		platform.add_source("module/verilog/infraRed.v")
 		platform.add_source("module/verilog/wheels.v")
-
-		# platform.add_source("module/verilog/test_cam.v")
-		# platform.add_source("module/verilog/cam_read.v")
-		# platform.add_source("module/verilog/buffer_ram_dp.v")
-		# platform.add_source("module/verilog/clk24_25_nexys4.v")
-		# platform.add_source("module/verilog/clk24_25_nexys4_clk_wiz.v")
+		platform.add_source("module/verilog/DHT11.v")
 		
 		# SoC with CPU
 		SoCCore.__init__(self, platform,
@@ -95,21 +89,16 @@ class BaseSoC(SoCCore):
 		vga_green = Cat(*[platform.request("vga_green", i) for i in range(4)])
 		vga_blue = Cat(*[platform.request("vga_blue", i) for i in range(4)])
 		self.submodules.vga_cntrl = vgacontroller.VGAcontroller(platform.request("hsync"),platform.request("vsync"), vga_red, vga_green, vga_blue)
-		
-		
-		#camara
-		# SoCCore.add_csr(self,"camara_cntrl")
-		# CAM_px_data = Cat(*[platform.request("CAM_px_data", i) for i in range(8)])		
-		# self.submodules.camara_cntrl = camara.Camara(platform.request("CAM_xclk"),platform.request("CAM_pclk"),CAM_px_data, platform.request("CAM_vsync"), platform.request("CAM_href"))
-
-		#I2C
-		SoCCore.add_csr(self,"i2c_cntrl")
-		self.submodules.i2c_cntrl = i2c.I2C(platform.request("i2c"))
+	
 
 
 		#ultraSound
 		SoCCore.add_csr(self,"ultraSound_cntrl")
 		self.submodules.ultraSound_cntrl = ultraSound.US(platform.request("echo"), 	platform.request("trig"))
+		
+		#Dht11
+		SoCCore.add_csr(self,"DHT11_cntrl")
+		self.submodules.DHT11_cntrl = DHT11.DHT11(platform.request("Inicio"), 	platform.request("Data"))
 		
 		#PWMUS
 		SoCCore.add_csr(self,"PWMUS_cntrl")
