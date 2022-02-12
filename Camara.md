@@ -55,4 +55,4 @@ end
  ```
 
 # Observaciones generales
-Se realizó la implementación de la camara con diversos codigos de los repositorios de grupos anteriores a este se le modificó de acuerdo a criterior personales sin embargo,no fue posible hacer funcionar este componente, se cree que es debido a daños fisicos del componente.
+Se realizó la implementación de la camara con diversos codigos de los repositorios de grupos anteriores a este se le modificó de acuerdo a criterior personales sin embargo,no fue posible hacer funcionar este componente, se cree que es debido a daños fisicos del componente, a causa del corto tiempo disponible no fue una una opción pedir un reemplazo, pues este módulo fue ordenado por mercadolibre y una devolución para este caso tomaba más tiempo del que contabamos para la presentación del proyecto en cuestión.
