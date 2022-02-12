@@ -3,7 +3,6 @@
 ## DHT11
 Para este proyecto se ha elegido añadir un nuevo periferico,el cual consiste en un sensor de temperatura,un complemento ideal para la tipologia 
 de este proyecto,este será conectado por I2C al bus Wish.
-Este módulo no se pudo implementar en la FPGA a pesar de que anteriormente fue testeado y funcional en otro proyecto de la materia "Electrónica Digital I", para implemantar este DHT11 se usó el código de aquel proyecto, este se encuentra adjunto más abajo en esta misma sección.
 
 
 ![S_temperatura](https://github.com/unal-edigital2-labs/wp08-2021-2-gr07/blob/main/Imagenes%20github/DHT11.png "S_temperatura")
@@ -145,3 +144,23 @@ endmodule
 
 
 # Test de prueba
+```
+static void DHT11(void)
+{
+	DHT11_cntrl_init_write(1);
+	// Se esperan 2 ms para dar tiempo a que el registro done se actualice
+	delay_ms(2);
+	while(true){
+		if(DHT11_cntrl_done_read() == 1){
+			int d = DHT11_cntrl_temp_read();
+			DHT11_cntrl_init_write(0);
+			printf("%d", d);
+		}
+		
+	}
+	
+}
+```
+
+#Observaciones
+Este módulo no se pudo implementar en la FPGA a pesar de que anteriormente fue testeado y funcional en otro proyecto de la materia "Electrónica Digital I", para implemantar este DHT11 se usó el código de aquel proyecto, este se encuentra adjunto más abajo en esta misma sección.
